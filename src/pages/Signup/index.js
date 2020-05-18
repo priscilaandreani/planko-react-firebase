@@ -45,11 +45,14 @@ export const Signup = ({ history }) => {
 
           <div className='inputBox'>
             <h5>
-              <a classname='' href='/login'>
+              <a className='' href='/login'>
                 Já é cadastrado? <span>Clique aqui!</span>
               </a>
             </h5>
           </div>
+        </div>
+        <div className='inputBox'>
+          <button type='submit'>Enviar</button>
         </div>
       </form>
     </div>

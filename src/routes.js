@@ -12,10 +12,11 @@ export const Routes = () => {
       <div className={'pages-container'}>
         <Router>
           <Switch>
+            <PrivateRoute exact path='/' component={Home} />
             <Route exact path='/login' component={Login} />
             <Route exact path='/signup' component={Signup} />
-            <Route exact path='*' component={() => 404} />
-            <PrivateRoute exact path='/' component={Home} />
+            <Route exact path='/*' component={() => 404} />
+
             {/* <PrivateRoute exact path='/' component={Login} />
           <PrivateRoute exact path='/' component={Login} />
           <PrivateRoute exact path='/' component={Login} /> */}
