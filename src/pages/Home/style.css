@@ -3,7 +3,37 @@
   height: 100%;
   margin: 0 auto;
   min-height: 900px;
+}
 
-  align-items: center;
-  justify-content: center;
+.logo-icon {
+  margin-left: 10px;
+  width: 100%;
+  max-width: 60px;
+  padding: 10px;
+}
+
+.header {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  color: rgba(193, 193, 193);
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.header .powerOff {
+  width: 40px;
+  margin-left: 80%;
+  margin-top: -15%;
+}
+
+.header p {
+  font-size: 1.6rem;
+  margin-top: 10px;
+}
+
+.header h3 {
+  font-size: 1.8rem;
+  margin-top: -30px;
+  margin-left: 70px;
 }
