@@ -1,0 +1,56 @@
+.container_play {
+  margin: -10px auto;
+  width: 100%;
+  min-width: 370px;
+  height: 180px;
+  border-radius: 20px;
+  background: #262938;
+  box-shadow: inset 5px 5px 10px #202330, inset -5px -5px 10px #2c2f40;
+  padding: 20px;
+}
+
+.container_player {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.container_text {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: none;
+}
+.container_text h2 {
+  text-align: center;
+  text-transform: none;
+}
+
+.container_text h3 {
+  text-align: center;
+  text-transform: none;
+  color: #c1c1c5;
+  padding: 5px;
+}
+
+.container_player button {
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  margin-left: 10px;
+  margin-right: 30px;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.5s;
+
+  background: linear-gradient(145deg, #494b5c, #3d3f4d);
+  box-shadow: 5px 5px 10px #202330, -5px -5px 10px #2c2f40;
+}
+
+.container_player button:hover {
+  background: linear-gradient(145deg, #6b729d, #7f88ba);
+  box-shadow: 5px 5px 10px #202330, -5px -5px 10px #2c2f40;
+}

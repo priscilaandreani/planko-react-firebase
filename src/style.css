@@ -1,0 +1,13 @@
+* {
+  font-family: 'Fabrica', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 10px;
+}
+
+#root {
+  display: flex;
+  flex-wrap: wrap;
+}
