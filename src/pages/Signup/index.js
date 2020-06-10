@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react';
 import app from '../../firebase/base';
-import logo from '../../assets/logo-w.png';
+import logo from '../../assets/logo.png';
 
 export const Signup = ({ history }) => {
   const handleSignUp = useCallback(
@@ -26,7 +26,7 @@ export const Signup = ({ history }) => {
       </div>
 
       <form onSubmit={handleSignUp}>
-        <h1>Faça parte</h1>
+        <h1 className='h1_login'>Faça parte</h1>
         <div className='input'>
           <div className='inputBox'>
             <label>Nome:</label>
@@ -45,14 +45,16 @@ export const Signup = ({ history }) => {
 
           <div className='inputBox'>
             <h5>
-              <a className='' href='/login'>
+              <a className='link' href='/login'>
                 Já é cadastrado? <span>Clique aqui!</span>
               </a>
             </h5>
           </div>
         </div>
         <div className='inputBox'>
-          <button type='submit'>Enviar</button>
+          <button className='login' type='submit'>
+            Enviar
+          </button>
         </div>
       </form>
     </div>

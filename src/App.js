@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 
-// import { Route } from 'react-router-dom';
 import { Routes } from './routes';
 
 import './style.css';

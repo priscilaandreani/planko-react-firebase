@@ -1,0 +1,14 @@
+.set_item {
+  display: flex;
+  margin-bottom: 16px;
+  margin-right: 10px;
+  border-radius: 16px;
+  width: 77px;
+  height: 91px;
+  padding: 0;
+  box-shadow: 4px 4px 8px #cfcfd1, -4px -4px 8px #ffffff;
+}
+
+.set_item img {
+  object-fit: cover;
+}

@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import { Zap } from 'react-feather';
 
 import './style.css';
 import { Link } from 'react-router-dom';
@@ -9,8 +8,7 @@ const MusicItem = (props) => {
     <Fragment>
       <Link to='/shop/download'>
         <div className='music_item'>
-          <Zap size={20} />
-          <p>{props.children}</p>
+          <img src={props.image} alt='meus favoritos'></img>
         </div>
       </Link>
     </Fragment>

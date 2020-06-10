@@ -3,3 +3,4 @@ export { Home } from './Home';
 export { Signup } from './Signup';
 export { Shop } from './Shop';
 export { SetDownload } from './SetDownload';
+export { Add } from './Add';

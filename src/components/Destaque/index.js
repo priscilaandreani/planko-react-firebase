@@ -1,15 +1,15 @@
 import React from 'react';
-import SetDestaque from '../SetDestaque';
+import { Link } from 'react-router-dom';
 
 import './style.css';
+import destaque from '../../assets/image/destaque.png';
 
 const Destaque = () => {
   return (
-    <div className='card_container'>
-      <h2>Destaques</h2>
-      <div className='card_container_box'>
-        <SetDestaque />
-      </div>
+    <div className='card_container_box_photo'>
+      <Link to='/shop/download'>
+        <img src={destaque} alt='destaque-principal' />
+      </Link>
     </div>
   );
 };

@@ -5,10 +5,9 @@ import { Power } from 'react-feather';
 import Card from '../../components/Card';
 import Melhores from '../../components/Melhores';
 import Destaque from '../../components/Destaque';
-import Footer from '../../components/Footer';
 
 import './style.css';
-import logo from '../../assets/branco.png';
+import logo from '../../assets/preto.png';
 
 export const Home = () => {
   return (
@@ -19,15 +18,17 @@ export const Home = () => {
         <h3>
           plk-012 <span>by unwired</span>
         </h3>
-        <button className='powerOff' onClick={() => app.auth().signout()}>
+        <button
+          className='btn'
+          type='button'
+          onClick={() => app.auth().signout()}>
           <Power size={16} />
         </button>
         <Destaque />
-        <h2>Meus favoritos</h2>
+        <h2 className='categorias'>Destaques da Semana</h2>
         <Card />
-        <h2>Destaque do mês</h2>
+        <h2 className='categorias'>Meus favoritos</h2>
         <Melhores />
-        <Footer />
       </div>
     </div>
   );

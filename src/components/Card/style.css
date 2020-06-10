@@ -1,34 +1,11 @@
-h2 {
-  font-size: 1.6em;
-  text-transform: uppercase;
-  margin-top: 20px;
-  margin-left: 15px;
-}
 .card_container {
-  width: 100%;
-}
-
-.card_container_box {
-  width: 90%;
-  min-width: 350px;
-  height: 200px;
-  background-color: rgba(38, 41, 56);
+  height: 112px;
   display: flex;
-  flex-wrap: wrap;
-  margin: 10px auto;
-  border-radius: 10px;
-  background: #262938;
-  box-shadow: inset 20px 20px 40px #20222e, inset -20px -20px 40px #2c3042;
+  flex-wrap: nowrap;
 }
 
 .card_container_box_fav {
-  width: 90%;
-  min-width: 350px;
-  height: 200px;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 10px auto;
-  /* border-radius: 10px;
-  background: #262938;
-  box-shadow: inset 20px 20px 40px #20222e, inset -20px -20px 40px #2c3042; */
+  max-height: 112px;
+  overflow: auto;
+  scroll-behavior: smooth;
 }

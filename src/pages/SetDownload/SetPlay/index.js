@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Play, Pause, ChevronRight, ChevronLeft } from 'react-feather';
+import { Play, ChevronRight, ChevronLeft } from 'react-feather';
 import './style.css';
 
 export const SetPlay = () => {
@@ -11,13 +11,13 @@ export const SetPlay = () => {
         <h3>John Doe</h3>
       </div>
       <div className='container_player'>
-        <button className='anterior'>
+        <button className='play'>
           <ChevronLeft size={24} />
         </button>
         <button className='play'>
           <Play size={20} />
         </button>
-        <button className='proxima'>
+        <button className='play'>
           <ChevronRight size={24} />
         </button>
       </div>

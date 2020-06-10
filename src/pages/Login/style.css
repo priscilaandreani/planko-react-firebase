@@ -1,35 +1,35 @@
 .container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   margin: 0 auto;
-  min-height: 900px;
+  min-height: 667px;
 
   align-items: center;
   justify-content: center;
 }
 
 div .logo {
-  margin: 150px auto 30px auto;
+  margin: 60px auto 30px auto;
 }
 .logo {
   display: block;
   width: 100px;
   border-radius: 2%;
   margin: auto;
-  /* box-shadow: */
-  /* logo shadow  0px 0px 2px rgba(68, 70, 86),*/
-  /* offset  0px 0px 0px 5px rgba(38, 41, 56),*/
-  /*bottom right  6px 6px 12px rgba(68, 70, 86),*/
-  /* top left  -6px -6px 12px rgba(38, 41, 56);*/
 }
 
-h1 {
+.h1_login {
   font-size: 2rem;
-  color: rgba(193, 193, 193);
+  color: #151513;
   font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-align: left;
+  text-align: center;
+}
+
+.h2_login {
+  text-align: center;
+  color: #151513;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 form {
@@ -39,7 +39,6 @@ form {
   padding: 40px 40px 60px;
   border-radius: 10px;
   text-align: center;
-  box-shadow: -5px -5px 10px rgba(68, 70, 86), rgba(68, 70, 86, 0.1);
 }
 
 .input {
@@ -60,27 +59,26 @@ form .input .inputBox label {
 form .input .inputBox input {
   width: 100%;
   height: 50px;
-  background-color: rgba(68, 70, 86);
+
   border: none;
   outline: none;
   border-radius: 40px;
   padding: 5px 15px;
-  color: #fff;
+  color: #7209b7;
   font-size: 1.6rem;
-  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.05),
-    inset 2px 2px 6px rgba(0, 0, 0, 0.5);
+  background: #f3f4f6;
+  box-shadow: inset 3px 3px 6px #cfcfd1, inset -3px -3px 6px #ffffff;
 }
 
-button {
+.login {
   height: 40px;
   width: 70px;
-  background-color: rgba(68, 70, 86);
-  color: #f5f5f5;
+  color: #151513;
   border: none;
   border-radius: 20px;
   margin-left: 50vw;
-  box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.05),
-    2px 2px 6px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(145deg, #ffffff, #dbdcdd);
+  box-shadow: 3px 3px 6px #cfcfd1, -3px -3px 6px #ffffff;
 }
 
 .link {
@@ -90,12 +88,13 @@ button {
 }
 
 .link a {
-  color: rgba(193, 193, 193, 0.8);
+  color: #555;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .link a span {
-  color: rgba(193, 193, 193);
+  color: #555;
   text-decoration: none;
-  font-weight: bolder;
+  font-weight: 600;
 }

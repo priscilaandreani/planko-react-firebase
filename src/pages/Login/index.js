@@ -3,8 +3,9 @@ import { Redirect } from 'react-router';
 import app from '../../firebase/base';
 import { AuthContext } from '../../store/Auth';
 
+import { Link } from 'react-router-dom';
 import './style.css';
-import logo from '../../assets/logo-w.png';
+import logo from '../../assets/logo.png';
 
 export const Login = ({ history }) => {
   const handleLogin = useCallback(
@@ -36,24 +37,31 @@ export const Login = ({ history }) => {
       </div>
 
       <form onSubmit={handleLogin}>
-        <h1>Login</h1>
+        <h1 className='h1_login'>Bem vindo de volta!</h1>
+        <h2 className='h2_login'>Entre para continuar</h2>
         <div className='input'>
           <div className='inputBox'>
-            {/*  <label>Email:</label> */}
             <input name='email' type='email' placeholder='Email' />
           </div>
 
           <div className='inputBox'>
-            {/* <label>Senha:</label> */}
             <input name='password' type='password' placeholder='Senha' />
           </div>
           <h5 className='link'>
-            <a href='/login'>
-              Esqueceu sua senha? <span>Clique aqui!</span>
-            </a>
+            <Link to='/login'>
+              Esqueceu sua senha? <span>Clique aqui! </span>
+            </Link>{' '}
+            <br></br>{' '}
+            <Link to='/signup'>
+              {' '}
+              Ou então,
+              <span> cadastre-se!</span>
+            </Link>
           </h5>
           <div className='inputBox'>
-            <button type='submit'>Log in</button>
+            <button className='login' type='submit'>
+              Log in
+            </button>
           </div>
         </div>
       </form>

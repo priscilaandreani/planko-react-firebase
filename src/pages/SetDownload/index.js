@@ -3,8 +3,6 @@ import React, { Fragment } from 'react';
 import { SetRow } from './SetRow';
 import { SetPlay } from './SetPlay';
 
-import Footer from '../../components/Footer';
-
 import './style.css';
 
 export const SetDownload = () => {
@@ -24,7 +22,6 @@ export const SetDownload = () => {
           <SetRow>Tom01</SetRow>
           <SetRow>Tom02</SetRow>
         </div>
-        <Footer />
       </div>
     </Fragment>
   );

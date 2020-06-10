@@ -4,8 +4,8 @@
   min-width: 370px;
   height: 180px;
   border-radius: 20px;
-  background: #262938;
-  box-shadow: inset 5px 5px 10px #202330, inset -5px -5px 10px #2c2f40;
+  background: linear-gradient(145deg, #dbdcdd, #ffffff);
+  box-shadow: 6px 6px 13px #cfcfd1, -6px -6px 13px #ffffff;
   padding: 20px;
 }
 
@@ -38,16 +38,17 @@
 .container_player button {
   width: 50px;
   height: 50px;
-  padding: 8px;
+  padding: 10px;
   margin-left: 10px;
   margin-right: 30px;
   margin-top: 30px;
+  justify-content: center;
   text-align: center;
   border-radius: 50%;
   transition: 0.5s;
-
-  background: linear-gradient(145deg, #494b5c, #3d3f4d);
-  box-shadow: 5px 5px 10px #202330, -5px -5px 10px #2c2f40;
+  border: none;
+  background: linear-gradient(145deg, #c9c4cf, #efe9f6);
+  box-shadow: 5px 5px 9px #beb9c4, -5px -5px 9px #fffbff;
 }
 
 .container_player button:hover {

@@ -1,27 +1,14 @@
 .music_item {
-  width: 10%;
-  height: 10%;
-  min-width: 60px;
-  min-height: 65px;
-  /* background-color: #262938; */
-  padding: 10px;
-  margin-left: 22px;
-  margin-top: 20px;
-  text-align: center;
-  border-radius: 20px;
-
-  background: #444656;
-  box-shadow: 5px 5px 10px #3a3c49, -5px -5px 10px #4e5163;
+  display: flex;
+  margin-top: 16px;
+  margin-right: 16px;
+  border-radius: 16px;
+  width: 154px;
+  height: 112px;
+  padding: 0;
+  box-shadow: 4px 4px 8px #cfcfd1, -4px -4px 8px #ffffff;
 }
 
-.music_item:hover,
-.music_item:active,
-.music_item:focus {
-  box-shadow: inset 5px 5px 20px #202330, inset -5px -5px 10px #2c2f40;
-}
-
-@media (hover: hover) and (pointer: fine) {
-  .music_item:hover {
-    box-shadow: inset 5px 5px 20px #202330, inset -5px -5px 10px #2c2f40;
-  }
+.music_item img {
+  object-fit: cover;
 }

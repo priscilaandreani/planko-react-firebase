@@ -8,6 +8,9 @@
 
 .icon_set {
   display: flex;
+  background: #ffffff;
+  padding: 10px;
+  box-shadow: 4px 4px 7px #cfcfd1, -4px -4px 7px #ffffff;
 }
 
 .icon_set:first-child {
@@ -23,15 +26,21 @@
   margin: 5px;
   box-shadow: none;
   width: 40px;
+  height: 47px;
   padding: 10px;
   display: flex;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #efe9f6, #c9c4cf);
+  box-shadow: 5px 5px 9px #beb9c4, -5px -5px 9px #fffbff;
 }
 
 .icon_set button:hover {
-  background: #262938;
-  box-shadow: inset 4px 4px 9px #202330, inset -4px -4px 9px #2c2f40;
+  background: linear-gradient(145deg, #533e84, #624a9d);
+  box-shadow: 4px 4px 7px #cfcfd1, -4px -4px 7px #ffffff;
+  color: #fffbff;
 }
 
-button .download {
+rgba(95,69,147) button .download {
   padding: 10px;
 }
